@@ -1,10 +1,11 @@
 Gem::Specification.new do |s|
-  s.name = %q{algorithm_ruby}
-  s.version = "0.0.0"
-  s.date = %q{2011-09-29}
-  s.summary = %q{A Generic Algorithm Library for Ruby Language}
-  s.files = [
-    "lib/algorithm_ruby.rb"
-  ]
-  s.require_paths = ["lib"]
+  s.name        = 'algorithm_ruby'
+  s.version     = '0.0.0'
+  s.date        = '2019-09-09'
+  s.summary     = "Algorithms!"
+  s.description = "Generic alogirthms writen in ruby"
+  s.authors     = "Artem Rakov"
+  s.email       = 'scoff1k@gmail.com'
+  s.files       = ["lib/algorithm_ruby.rb", "lib/sorting/quick_sort.rb"]
+  s.license     = 'MIT'
 end
