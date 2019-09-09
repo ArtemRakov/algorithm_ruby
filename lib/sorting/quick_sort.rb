@@ -3,9 +3,9 @@ module AlgorithmRuby
     class QuickSort
       def self.run(list)
         return [] if list.empty?
-        sample = list.shift
+        pivot = list.shift
         left, right = list.partition { |el| el < pivot }
-        run(left) + [sample] + run(right)
+        run(left) + [pivot] + run(right)
       end
     end
   end

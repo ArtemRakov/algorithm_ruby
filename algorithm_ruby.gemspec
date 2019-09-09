@@ -6,6 +6,6 @@ Gem::Specification.new do |s|
   s.description = "Generic alogirthms writen in ruby"
   s.authors     = "Artem Rakov"
   s.email       = 'scoff1k@gmail.com'
-  s.files       = ["lib/algorithm_ruby.rb", "lib/sorting/quick_sort.rb"]
+  s.files       = ["lib/algorithm_ruby.rb", "lib/sorting/quick_sort.rb", "lib/sorting/bubble_sort.rb"]
   s.license     = 'MIT'
 end
